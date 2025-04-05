@@ -42,7 +42,6 @@ sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/wordlis
 ```
 NombreDelCTF/
 ├── ip.txt
-├── writeup.md
 ├── nmap/
 ├── enum/
 │   ├── web/
@@ -63,9 +62,13 @@ NombreDelCTF/
 ```
 
 ## ⚙️ Cómo usar el script
-Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es conec.ovp o edita el script para cambiar la ruta o el nombre.
+Clonamos el repo
 
-Dale permisos de ejecución al script y corre:
+```bash
+git clone https://github.com/BinyaminT/ctf-tools.git && cd ctf-tools
+```
+
+Damos permisos de ejecución al script y corre:
 
 ```bash
 chmod +x time_ctf.sh && ./time_ctf.sh
