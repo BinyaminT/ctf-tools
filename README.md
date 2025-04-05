@@ -39,6 +39,7 @@ sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/wordlis
 
 ## Estructura de directorios del CTF
 
+```
 NombreDelCTF/
 ├── ip.txt
 ├── writeup.md
@@ -59,11 +60,12 @@ NombreDelCTF/
 │   ├── persistencia/
 │   └── datos_extraidos/
 └── flags/
+```
 
 ## ⚙️ Cómo usar el script
 Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es conec.ovp o edita el script para cambiar la ruta o el nombre.
 
-Dale permisos de ejecución al script:
+Dale permisos de ejecución al script y corre:
 
 ```bash
 chmod +x auto-ctf.ss && ./auto-ctf.sh
