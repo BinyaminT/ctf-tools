@@ -68,12 +68,13 @@ Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es con
 Dale permisos de ejecución al script y corre:
 
 ```bash
-chmod +x auto-ctf.ss && ./auto-ctf.sh
+chmod +x time_ctf.sh && ./auto-ctf.sh
 ```
 ## ▶️ Instrucciones de uso
 
 
-- 💻 **Ingresa el nombre de la sesión tmux**  
+- 💻 **Ingresa el nombre de la sesión tmux**
+  Por ejemplo coloacamos CTF.  
   Esto crea el entorno dividido en ventanas (VPN, escaneo, fuzzing, etc).
 
 - 📁 **Ingresa el nombre del CTF**  
