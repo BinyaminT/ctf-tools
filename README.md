@@ -68,7 +68,7 @@ Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es con
 Dale permisos de ejecución al script y corre:
 
 ```bash
-chmod +x time_ctf.sh && ./auto-ctf.sh
+chmod +x time_ctf.sh && ./time_ctf.sh
 ```
 ## ▶️ Instrucciones de uso
 
