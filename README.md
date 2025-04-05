@@ -61,20 +61,24 @@ NombreDelCTF/
 └── flags/
 
 ## ⚙️ Cómo usar el script
+Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es conec.ovp o edita el script para cambiar la ruta o el nombre.
 
-    Coloca tu archivo .ovpn en tu home con el nombre que tu desees en mi caso es conec.ovp o edita el script para cambiar la ruta o el nombre.
+Dale permisos de ejecución al script:
 
-    Dale permisos de ejecución al script:
+```bash
+chmod +x auto-ctf.ss && ./auto-ctf.sh
+```
+## ▶️ Instrucciones de uso
 
-    chmod +x auto-ctf.sh
 
-    ./auto-ctf.sh
-    Sigue las instrucciones:
+- 💻 **Ingresa el nombre de la sesión tmux**  
+  Esto crea el entorno dividido en ventanas (VPN, escaneo, fuzzing, etc).
 
-        Ingresa el nombre de la sesión tmux.
+- 📁 **Ingresa el nombre del CTF**  
+  Se usará como nombre para la carpeta que contendrá toda la estructura.
 
-        Ingresa el nombre del CTF.
+- 🌐 **Ingresa la IP del objetivo**  
+  Es la dirección que se va a escanear automáticamente con `nmap` y usar para `ffuf`.
 
-        Ingresa la IP del objetivo.
+✅ **El script se encargará del resto.**
 
-El script se encargará del resto.
