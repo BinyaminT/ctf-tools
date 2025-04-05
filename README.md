@@ -26,11 +26,16 @@ sudo apt update && sudo apt install -y \
   ffuf \
   openvpn \
   seclists
+  ```
+
 
 También es recomendable clonar SecLists si no está instalada en /usr/share/wordlists/seclists:
 
+```bash
 sudo git clone https://github.com/danielmiessler/SecLists.git /usr/share/wordlists/seclists
+```
 
+---
 
 ## Estructura de directorios del CTF
 
